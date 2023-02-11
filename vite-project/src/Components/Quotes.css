@@ -1,0 +1,46 @@
+
+.Quotes-box{ 
+    width: 40rem;
+    margin: 40rem auto;
+    border-radius: 5px;
+    border: 1px solid black;
+    background: white;
+    padding: 40px;
+}
+.Author{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.social-media>a img{
+    width: 2rem;
+    cursor: pointer;
+
+}
+.social-media>a{
+    margin-right: 0.5rem;
+    padding: 0.3rem .5rem;
+}
+.social-media>a:hover{
+    opacity: 0.9;
+}
+.new-quote{
+    background: #0059ff;
+    border: none;
+    color:#fff;
+    padding: 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+}
+.new-quote:hover{
+    opacity: 0.9;
+}
