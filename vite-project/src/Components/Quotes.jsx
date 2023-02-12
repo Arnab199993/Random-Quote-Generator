@@ -26,10 +26,10 @@ const Quotes = () => {
             <div className='Author'><p>{author}</p></div>
             <div className="buttons">
                 <div className="social-media">
-                    <a className='tweet-quote'>
+                    <a href={`https://twitter.com/compose/tweet?text=${quotes} Author: ${author}`} target={"_blank"} className='tweet-quote'>
                         <span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4n_urpJ9XpwOTdzBVbGvactwHrPagYQrTJPYjxfxLGkSyu7nJZVqRVGAeohnPgKMrnKE&usqp=CAU" /></span>
                     </a>
-                    <a className='tumblr-quote'>
+                    <a href={`https://www.tumblr.com/new/text?text=Hello`} target={"_blank"} className='tumblr-quote'>
                         <span><img src="http://store-images.s-microsoft.com/image/apps.7771.14420356529270456.a0e62d2f-10e7-480b-b5a1-cb70a39b4d1b.c709c9e1-9ae6-4ef8-b83b-802b291f1380" /></span>
                     </a>
                 </div>
