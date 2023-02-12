@@ -48,7 +48,8 @@ body{
     font-family: 'EB Garamond', serif;
     font-size: 30px;
 /* font-family: 'Poppins', sans-serif; */
-background-color: aquamarine;
+background-image: url("https://images.unsplash.com/photo-1516205651411-aef33a44f7c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Zmxvd2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1600&q=60");
+background-size: cover;
     margin:0;
     padding:0;
     box-sizing: border-box;
